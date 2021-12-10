@@ -1,0 +1,34 @@
+body{
+    background-color:#156461;
+}
+#halign{
+    color:rgb(236, 243, 243);
+    text-align: center;
+    }   
+p{
+    font-size: 20px;
+}
+#outer-box{
+    margin: 40px;
+    margin-left: 400px;
+    width: 550px;
+    height:380px;
+    background-color:#6fc4ad;
+    padding: 20px;
+    border: 2px solid;
+    border-color: seagreen;
+    border-radius: 25px;
+    box-shadow: black 10px 5px ;
+
+} 
+.inner-box{
+    margin: 20px;
+    width: 500px;
+    height:40px;
+    background-color:#e7f1f0;
+    border: 2px solid;
+    border-color: #0fd3a6;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+} 
