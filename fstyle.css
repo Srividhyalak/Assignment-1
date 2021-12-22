@@ -1,0 +1,141 @@
+.container
+    {
+        background-color: rgb(197, 197, 197);
+        border: 10px rgb(104, 103, 100);
+        padding: 1px 0px 1px 0px;
+        width: 100%;
+    }
+    .header
+    {
+        display : flex;
+        height : 100px;
+        background-color: rgb(245, 243, 215);
+        justify-content: space-between;
+        padding-right:20px;
+        margin:5px;
+    }
+    .comp
+    {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+   .main
+   {
+       display:flex;
+       background-color: rgb(225, 247, 247);
+       margin:5px;
+       justify-content: space-between;
+       height:400px;
+       width : 99%;
+       flex-wrap: wrap;
+             
+    }
+    .content
+   {
+       font-size: 20px;
+        width:47%;
+        padding-left: 5px;
+        
+   }
+  
+   .bimg
+   {
+    width: 49%;
+  
+   }
+    .main1
+   {
+       display:flex;
+       background-color: rgb(233, 204, 211);
+       margin:5px;
+       height:400px;
+       justify-content: space-between;
+       width:99%;
+       flex-wrap: wrap;
+       
+       
+   }
+   
+   .bimg1
+   {
+       
+        width:40%;
+              
+   }
+   .content1
+   {
+       padding-right: 10px;
+       font-size: 20px;
+       width:40%;
+   }
+  
+
+   h1
+   {
+    text-align: center;
+
+   }
+   
+   .box
+   {
+       height:100px;
+       background-color: rgb(236, 245, 186);
+       font-size: 20px;
+       padding: 10px;
+       margin:5px;
+       margin-bottom: 10px;
+       box-shadow: 3px 3px rgb(121, 102, 52) ;
+       border-radius: 20px;
+
+   }
+   .footer
+   {
+       height:40px;
+       background-color: rgb(211, 226, 248);
+       font-size: 15px;
+       padding: 10px;
+       margin:5px;
+       text-align: center;
+       
+    
+   }
+   @media screen and (max-width: 480px) {
+   
+    .content {
+        width: 100%!important;
+        height:auto;
+        
+    } 
+    .bimg
+    {
+        width: 100%!important;
+        padding-top: 300px;
+    }
+    .bimg1
+    {
+        width: 100%!important;
+    
+    }
+    .content1 {
+        width: 100%!important;
+        padding-top: 300px;
+        
+    }    
+   
+    .header
+    {
+        width: 93%!important;
+}
+
+        
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .content, .bimg ,.content1, .bimg1 {
+        width: 100%;
+        
+    }
+    .content, .content1 {
+        width: 100%!important;
+        
+    }
+}
